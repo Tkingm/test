@@ -8,7 +8,7 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.mapping.FetchType;
 
 import java.util.List;
-
+System.out.println("AAAAAAAAAAAAAAAAA");
 public interface IUserDao {
 
 //    根据用户名查询
