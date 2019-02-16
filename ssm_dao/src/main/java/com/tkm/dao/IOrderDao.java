@@ -23,6 +23,4 @@ public interface IOrderDao {
 
     @Insert("insert into orders values (#{id},#{orderNum},#{peopleCount},#{product.productNum},#{product.productName},#{product.productPrice})")
     void add(Order order);
-
-//  虎牙哈哈哈哈哈
 }
